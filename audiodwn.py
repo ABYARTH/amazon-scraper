@@ -5,14 +5,14 @@ import json
 Linkarr = []
 
 def grablinks():
-	url = "http://www.awesummly.com/api/india/notifications/?audio=true"
+	url = "url_of_the_api"
 	hedr = {
 				'Accept' : 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
 				'Accept-Encoding':	'gzip, deflate',
 				'Accept-Language':	'en-US,en;q=0.5',
 				'Connection':	'keep-alive',
-				'Cookie':	'__cfduid=d4bc1ad25bf8d5b8d8396f4045ac80a861500290619; _ga=GA1.2.953613925.1500297451; __auc=dbab5f9015d50b25707a82bea96',
-				'Host':	'www.awesummly.com',
+				'Cookie':	'8d5b8d8396f4045ac80a861500290619; _ga=GA1.2.953451; __auc=dbaba82bea96',
+				'Host':	'www.domain.com',
 				'Upgrade-Insecure-Requests':	'1',
 				'User-Agent':	'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:54.0) Gecko/20100101 Firefox/54.0'
 			}
